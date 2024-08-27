@@ -20,6 +20,10 @@ button:hover {
     cursor: pointer;
     background-color: aqua;
 }
+.btn-h2:hover {
+    cursor: pointer;
+    background-color: red
+}
 
 .logo:hover {
     cursor: pointer;
@@ -27,6 +31,8 @@ button:hover {
 }
 :root {
     --font-heading: Sen, sans-serif;
+    --font-text: Poppins, sans-serif;
+
 }
 
 a{
@@ -96,7 +102,6 @@ header .nav ul li.acvive a{
 }
 header .nav ul li.acvive a::after{
     left: 21px;
-
     position: absolute;
     content: "";
     display: block;
@@ -104,7 +109,6 @@ header .nav ul li.acvive a::after{
     height: 2px;
     background: #171100;
     border-radius: 1px;
-
 }
 .btn {
     min-width: 144px;
@@ -122,7 +126,7 @@ header .nav ul li.acvive a::after{
 
 /*====================HERO====================*/
 main .hero{
-    background-color: pink;
+    background-color: rgb(240, 240, 240);
 }
 main .hero .body{
     padding-top: 56px;
@@ -142,11 +146,6 @@ main .hero .body{
     line-height: 16px;
     object-fit: cover;
 }
-.hero .content-block{
-    padding-top: 64px;
-    padding-left: 130px;
-    width: 52%;
-}
 
 .hero .media-block .hero-summary {
     padding: 24px;
@@ -156,7 +155,7 @@ main .hero .body{
     right: 0;
     border-radius: 12px;
     background-color: #fff;
-    /* line-height:16px; */
+    line-height:16px;
     box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.05);
 }
 .hero .media-block .hero-summary .item{
@@ -196,4 +195,80 @@ main .hero .body{
     font-weight: 600;
     line-height: 1.67;
     margin-right: 30px;
+}
+.hero .content-block{
+    padding-top: 64px;
+    padding-left: 130px;
+    width: 52%;
+}
+.hero .content-block .heading{
+    color: #171100;
+    font-family: var(--font-heading);
+    font-size: 5.8rem;
+    font-weight: 600;
+    line-height: 1.17;
+    letter-spacing: -1.16px;
+}
+.hero .content-block .desc {
+    margin-top: 22px;
+    margin-bottom: 38px;
+    color: #5f5b53;
+    font-size: 1.8rem;
+    line-height: 1.67;
+}
+.hero .cta-group{
+    display: flex;
+    margin-bottom: 48px;
+}
+
+.hero .cta-group .watch-video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: none;
+    margin-left: 28px;
+
+}
+.btn-h2{
+    margin-left: 28px;
+    padding: 0 16px;
+    background-color: #171100;
+    border-radius: 999px;
+    color: #fff;
+    display: inline-block;
+    line-height: 50px;
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-align: center;
+}
+.hero .cta-group .watch-video .icon{
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: #fff;
+    border-radius: 50%;
+}
+.hero .watch-video p{
+    margin-left: 14px;
+    color: #171100;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.67;
+}
+.hero .desc-recent{
+    margin-bottom: 20px;
+}
+.hero .desc-stats strong{
+    margin-right: 15px;
+    color: #171100;
+    font-family: var(--font-heading);
+    font-size: 4.4rem;
+    font-weight: 700;
+    line-height: 1.23;
+}
+.hero .content-block .str70{
+    margin-left: 27px;
 }
