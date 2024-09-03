@@ -1,4 +1,4 @@
-/*======================QUY DOI 1px = 1rem======================*/
+/*======================QUY DOI 10px = 1 rem======================*/
 
 *{
     box-sizing: border-box;
@@ -380,7 +380,6 @@ main .hero .body{
 .feedback .main-content .infor{
     width: 159px;
     height: 191px;
-    margin-right: 250px;
 }
 .feedback .main-content .infor .member-name{
     color: #f7f7f7;
@@ -389,14 +388,38 @@ main .hero .body{
     font-weight: 700;
     line-height: 1.42;  
 }
-
+.feedback .feedback-item .content{
+    margin-left: 250px;
+    width: 65%;
+    justify-content: space-between;
+}
 .feedback .main-content .content blockquote{
     color: #fff;
     font-size: 2.6rem;
     font-style: italic;
     line-height: 1.54;
 }
+.feedback .main-content .infor .desc{
+    color: #bfbcb2;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    margin-bottom: 28px;
+}
+.feedback .feedback-item .infor .dots{
+    display: flex;
+    gap: 5px;   
+}
+.feedback .feedback-item .infor .dots .dot.active,
+.feedback .feedback-item .infor .dots .dot:hover{
+    background-color: #ffb900;
+}
+.feedback .feedback-item .infor .dots .dot{
 
+    border-radius: 50%;
+    height: 6px;
+    width: 6px;
+    background-color: #bbb195;
+}
 
 
 
