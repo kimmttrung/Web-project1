@@ -420,7 +420,104 @@ main .hero .body{
     width: 6px;
     background-color: #bbb195;
 }
+/*================================FEATURE================================*/
+.feature{
+    margin: 135px 0;
+}
+.feature .main-content .body{
+    display: flex;
+    padding: 65px 0;
+    justify-content: space-between;
+}
+.feature .main-content .body .images{
+    display: flex;
+    gap: 30px;
+}
+.feature .main-content .body .images .img2{
+    width: 270px;
+    height: 405px;
+    border-radius: 16px;
+    object-fit: cover;
+}
+.feature .main-content .content{
+    width: 40%;
+}
+.feature .main-content .content .desc{
+    margin-top: 16px;
+    color: #5f5b53;
+    font-size: 1.6rem;
+    line-height: 1.75;
+}
+.feature .main-content .content .btn{
+    margin-top: 32px;
+    margin-left: 0;
+}
+/*======================================BODY2==================================*/
+.feature .body2{
+    margin-top: 70px;
+    flex-direction: row-reverse;
+}
+.feature .main-content .body2 .images .img2{
+    width: 470px;
+    height: 440px;
+}
+.feature .main-content .body2 .content{
+    width: 49%;
+    justify-content: center;
+    align-items: center;
 
+}
+/*======================================POPULAR2==================================*/
+.popular2 .popular-top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+.popular2 .popular-top .desc{
+    text-align: center;
+}
+.popular2 .popular-bottom .title{
+    font-weight: 600;
+    line-height: 1.75;
+    margin-top: 10px;
+}
+.popular2 .popular-bottom .info .btn{
+    margin-top: 12px;
+    margin-left: 0;
+    margin-bottom: 28px;
+}
+.popular2 .popular-bottom .desc{
+    display: inline-block;
 
+}
+.popular2 .popular-bottom .desc::before{
+    content: "";
+    display: inline-block;  /* viet width.height */
+    width: 6px;
+    height: 6px;
+    background-color: #ffb900;
+    border-radius: 50%;
+    margin-right: 5px;
 
+}
+.popular2 .popular-bottom .desc::after{
+    content: "";
+    display: inline-block;  /* viet width.height */
+    width: 200px;
+    height: 1px;
+    background: #e2dfda;
+    border-radius: 50%;
+    margin-right: 5px;
+    left: 0;
+    right: -27px;
+    display: flex;
+    
 
+}
+/*======================================FOOTER==================================*/
+footer{
+    background-color: #2e2100;
+    padding: 96px 135px 0;
+}
